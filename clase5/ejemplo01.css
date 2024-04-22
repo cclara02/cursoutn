@@ -1,0 +1,48 @@
+
+h1{
+    color: red; /*color de titulo*/
+    background-color: yellow; /*color de fondo*/
+    text-align: center; /*centrar el contenido*/
+    text-transform: uppercase; /*tranformarma el texto de mayuscula a minuscula*/
+}
+  
+p{
+    color: purple;
+} 
+
+.destacados{
+    color: orange;
+    font-weight: bold; /*negritta*/
+    font-style: italic;/*fuente*/
+    font-size: 22px;/*tamaño*/
+}
+
+#rojo{
+    width: 350px;
+    height:  350px;
+    background-color: red; 
+    padding: 20px;
+    box-sizing: border-box;/* atributo que te ayuda para respetar el tamañp de tu caja*/
+    border: 5px solid black;
+    margin-left: 150px;/* tiene un margen a la izquierda de 150mpx*/
+
+
+}
+
+/*es para que el texto adentro del div del htm quede en blanco*/
+#rojo p,
+#azul p {
+   color: white;
+}
+#azul{
+    width: 350px;
+    height:  350px;
+    background-color: blue;    
+}
+
+/*
+padding: 20px; >>> todos son iguales
+padding: 10px 20px; >>> 10 para arriba y abajo y el 20 drecha izq
+padding: 10xpx 20px 5px; >>> 10 arriba , 20 laterales y  5 abajo
+padding: 10px 15px 20px 25px; >>> 10 arriba, 15 a la izq,20 abajo, 25 a la derecha
+*/
