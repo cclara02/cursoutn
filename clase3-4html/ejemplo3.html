@@ -22,6 +22,7 @@
             <input type="password" >
         </p>
 
+        <!-- solo puedo seleccionar una opcion  -->
         <p>
             <label for="">Sexo</label>
             <ul>
@@ -35,6 +36,50 @@
                 </li>
             </ul>
         </p>
+
+
+        <!-- podes elegir mas de una opcion, podes seleccionar una, dos , tres o todas , la diferencia esta en el value -->
+        <p>
+            <label for="">Hobbies</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="Hobbies[]" value="bailar">
+                    <label for="">bailar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Hobbies[]" value="cantar">
+                    <label for="">cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Hobbies[]" value="correr">
+                    <label for="">correr</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Hobbies[]" value="nadar">
+                    <label for="">nadar</label>
+                </li>
+            </ul>
+        </p>
+
+        <!-- elegis giandolo con opciones , se abre la barra con las opciones -->
+        <p>
+            <label for="">Titulo</label>
+            <select name="" >
+                <option value="primario">primario</option>
+                <option value="secundario">secundario</option>
+                <option value="terciario">terciario</option>
+                <option value="univerisitario">univerisitario</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="">cometarios/quejas/sugerencias</label>
+            <textarea name="" ></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Guardar">
+        </p>
+       
     </form>
 </body>
 </html>
