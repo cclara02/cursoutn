@@ -1,0 +1,32 @@
+/*  font-family: "Open Sans", sans-serif;
+    font-family: "Pacifico", cursive;
+*/
+
+.texto{
+    background-color: yellow;
+    column-count: 3;/*cantidad de columnas*/
+    column-gap: 60px;
+    column-rule: 3px solid purple; /*linea entrre columna*/
+    text-align: center;
+    color: green;
+}
+
+/*las p que estan dentro de la clase texto no tiene margen*/ 
+.texto p{
+    margin: 0;
+}
+h1,h2{
+    font-family: "Pacifico", cursive;/*cambia la fuente del titulo*/
+}
+p{
+    font-family: "Open Sans", sans-serif;
+}
+.iconos{
+    font-size: 200px;
+    color: aqua;
+}
+.icono_titulo{
+    font-size: 120px;
+    color: purple;
+    
+}

@@ -1,0 +1,30 @@
+#contenedor{
+    background-color: gray;
+    width: 80%;  
+    /* width 80% dica que el elemento debería ocupar el 80% del ancho de su contenedor. */
+    margin: 0 auto;
+    /* te centra el contenedor */
+}
+.verde{
+    background-color: green;
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.celeste{
+    background-color: lightblue;
+    width: 70%;
+    /* margin: 0 auto; */
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom: 20px;
+}
