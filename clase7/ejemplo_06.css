@@ -1,0 +1,25 @@
+.contenedor{
+    background-color: gray;
+    /* display: flex; */
+    display: inline-flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: flex-start; /*por defecto*/
+    align-items: flex-end;/*hacia abajo*/
+    align-items: center;
+    /*align-items: stretch;*//*le tengo que sacar el alto, me estira la caja*/
+
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* nota: es muy importante quien es el contenedor y quien es el item */

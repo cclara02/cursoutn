@@ -1,0 +1,32 @@
+.caja{
+    margin: 150px;
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(-90deg); */
+    transform: scale(0.75);
+    cursor: pointer; /*te pone la manito del cursor*/
+    transition: all 1s ease;/*para que la transicion que hago tarde 1s y ease es el tipo como la quiero de arriba abajo, etc
+    y lo pongo aca arriba porque sino queda mal la transicion porque saco el cursor y se va sin hacer la transicion*/
+    /*opacity: 0.5;*//*se apaga el color de la imagen*/
+    filter: grayscale(100%);
+}
+/* 1... 100%
+    1,5....>50%+
+    0,25....>se achica
+*/
+/* hover: es una pseudo clase */
+.caja:hover{
+    background-color: orange;
+    transform: scale(1) rotate(-90deg);
+    color: red;
+    box-shadow: inset 0 0 0 25px green;
+    /* opacity: 1; */
+    filter: grayscale(0%);
+    border-radius: 50%;
+
+}

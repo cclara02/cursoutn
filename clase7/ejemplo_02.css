@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: gray;
+    /*display: flex;*/
+    display: inline-flex;
+    /*flex-direction: row;*//*viene ya por defecto*/
+    /*flex-direction: row-reverse;*//*invierte la fila = row*/
+    /*flex-direction: column;*//*viene ya por defecto*/
+    /*flex-direction: column-reverse;*/ /*esto es para invertir columna*/
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
